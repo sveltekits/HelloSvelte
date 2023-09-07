@@ -1,6 +1,7 @@
 <script lang="ts">
 	import MainPageNav from '$lib/components/MainPageNav.svelte';
 	import Search from '$lib/components/Search.svelte';
+	import Second from '$lib/components/second.svelte';
 </script>
 
 <div class="mb-10">
@@ -15,3 +16,5 @@
 		<Search />
 	</div>
 </div>
+
+<Second />
